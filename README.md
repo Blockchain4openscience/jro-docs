@@ -1,1 +1,2 @@
 # About JRO
+![](diagram.png)
