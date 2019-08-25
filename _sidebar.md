@@ -10,3 +10,6 @@
 
     - [Structure](frontend/structure.md)
     - [Configure environment variables](frontend/addEnvVariables.md)
+  - Backend
+
+    - [Structure](backend/structure.md)
