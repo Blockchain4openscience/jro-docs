@@ -10,8 +10,8 @@ DEBUG = True # False if you are running it on production server
 SERVER_ADDRESS = "https://yourwebsite.com" # Comment out if running locally
 
 # Following variables are only needed if SERVER=True
-# If SERVER=True, Django makes use of MySQL database instead of default SQLite (since its more robust and suited for production)
-DATABASE_NAME = "jrodb" # MySQL database name 
-DATABASE_USER = "jrouser" # MySQL database user
-DATABASE_PASSWORD = "!N*-5m74?@-!V9EW" # MySQL database user's password
+# In production, We want to use MySQL database instead of default SQLite (since its more robust)
+DATABASE_NAME = "<db_name>" # MySQL database name 
+DATABASE_USER = "<db_user>" # MySQL database user
+DATABASE_PASSWORD = "<db_password>" # MySQL database user's password
 ```
